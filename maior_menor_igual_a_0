@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int x;
+	scanf("%d",&x);
+	if (x > 0){
+		printf("Maior que 0\n");
+	}if (x < 0){
+		printf("Menor que 0\n");
+	}if (x == 0) {
+		printf("Igual a 0\n");
+	}
+	return 0;
+}
